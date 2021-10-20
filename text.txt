@@ -1,0 +1,20 @@
+# function to count and print currency notes
+def countCurrency( amount)
+
+    money = [2000, 500, 200, 100,50, 20, 10, 5, 1 ]
+    moneycount= [0,0,0,0,0,0,0,0,0]
+     
+    #count money  
+
+   print("Currency count:>")
+
+    for i,j in zip(money,moneycount):
+        if totalmoney >= i:
+        
+            j=totalmoney//i
+            totalmoney=totalmoney-j*i
+             print(i,":",j)
+        
+     totalmoney=1256
+      countCurrency(totalmoney)
+           
