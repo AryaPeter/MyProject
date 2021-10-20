@@ -1,5 +1,5 @@
 # function to count and print currency notes
-def countCurrency( amount)
+def countCurrency( totalmoney)
 
     money = [2000, 500, 200, 100,50, 20, 10, 5, 1 ]
     moneycount= [0,0,0,0,0,0,0,0,0]
